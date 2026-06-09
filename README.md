@@ -1,6 +1,6 @@
-# Business Hub
+# Shared Links Hub
 
-A simple static GitHub Pages link hub for three businesses.
+A simple static Linktree-style page for three people to share websites, projects, socials, and contact links.
 
 ## Deploy
 
@@ -11,15 +11,19 @@ A simple static GitHub Pages link hub for three businesses.
 5. Save.
 6. Open the GitHub Pages URL after deployment finishes.
 
-## Required Before Public Launch
+## Update Links
 
-Replace all temporary business names, descriptions, and links with verified real information.
+Edit `index.html` and replace each person's "Info needed" cards with real links.
 
-The page intentionally uses visible "Info needed" states where business details are missing.
+Use full link formats:
+
+- Websites: `https://example.com`
+- Email: `mailto:name@example.com`
+- Phone: `tel:+15555555555`
 
 ## Files
 
-- `index.html` - page content
+- `index.html` - profile and links
 - `styles.css` - page styling
 - `.nojekyll` - disables Jekyll processing
 - `README.md` - deployment notes

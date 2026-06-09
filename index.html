@@ -3,102 +3,138 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Business Hub</title>
-  <meta name="description" content="Quick access to three local businesses, their services, and contact links." />
+  <title>Shared Links Hub</title>
+  <meta name="description" content="A shared Linktree-style hub for three people, their websites, socials, projects, and contact links." />
   <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Business Hub" />
-  <meta property="og:description" content="Quick access to our businesses, offers, contact info, and booking links." />
+  <meta property="og:title" content="Shared Links Hub" />
+  <meta property="og:description" content="Three people, one simple page for websites, socials, projects, and contact links." />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Business Hub" />
+  <meta property="og:site_name" content="Shared Links Hub" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <main class="page">
-    <section class="hero" aria-labelledby="page-title">
-      <p class="eyebrow">Local Business Hub</p>
-      <h1 id="page-title">Choose who you need.</h1>
-      <p class="subhead">Quick access to our businesses, offers, contact info, and booking links.</p>
+  <main class="page" aria-labelledby="page-title">
+    <section class="hero">
+      <p class="eyebrow">Shared Link Hub</p>
+      <h1 id="page-title">Find the right person.</h1>
+      <p class="subhead">Websites, projects, socials, and contact links for all three of us.</p>
     </section>
 
-    <section class="business-grid" aria-label="Business links">
-      <article class="business-card">
-        <div class="card-header">
-          <div class="avatar" aria-hidden="true">T</div>
-          <span class="status ready">Contact available</span>
-        </div>
+    <section class="people" aria-label="People and links">
+      <article class="person-card">
+        <header class="person-header">
+          <div class="avatar" aria-hidden="true">TR</div>
+          <div>
+            <p class="label">Person 1</p>
+            <h2>Thomas Robertson</h2>
+          </div>
+        </header>
 
-        <div class="card-body">
-          <p class="owner">Thomas Robertson</p>
-          <h2>Info needed</h2>
-          <p class="description">
-            Business name, offer, and service description are still needed before public launch.
-          </p>
-        </div>
+        <nav class="links" aria-label="Thomas Robertson links">
+          <a class="link-card featured" href="https://github.com/mrplatypus4777" target="_blank" rel="noopener noreferrer">
+            <span>
+              <strong>GitHub</strong>
+              <small>Projects and code</small>
+            </span>
+            <span aria-hidden="true">Open</span>
+          </a>
 
-        <div class="card-actions" aria-label="Thomas Robertson links">
-          <a class="button primary" href="mailto:mrplatypus4777@gmail.com" aria-label="Email Thomas Robertson">
-            Email Thomas
+          <a class="link-card" href="mailto:mrplatypus4777@gmail.com">
+            <span>
+              <strong>Email</strong>
+              <small>mrplatypus4777@gmail.com</small>
+            </span>
+            <span aria-hidden="true">Send</span>
           </a>
-          <a class="button" href="https://github.com/mrplatypus4777" target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-        </div>
+
+          <div class="link-card empty" role="note">
+            <span>
+              <strong>Website</strong>
+              <small>Info needed: replace with your website URL</small>
+            </span>
+            <span aria-hidden="true">Add</span>
+          </div>
+        </nav>
       </article>
 
-      <article class="business-card missing">
-        <div class="card-header">
+      <article class="person-card">
+        <header class="person-header">
           <div class="avatar" aria-hidden="true">2</div>
-          <span class="status">Info needed</span>
-        </div>
+          <div>
+            <p class="label">Person 2</p>
+            <h2>Info needed</h2>
+          </div>
+        </header>
 
-        <div class="card-body">
-          <p class="owner">Info needed</p>
-          <h2>Info needed</h2>
-          <p class="description">
-            Add the owner's name, business name, description, and verified contact links.
-          </p>
-        </div>
+        <nav class="links" aria-label="Second person's links">
+          <div class="link-card empty" role="note">
+            <span>
+              <strong>Main Website</strong>
+              <small>Info needed: add a real website, portfolio, shop, or booking link</small>
+            </span>
+            <span aria-hidden="true">Add</span>
+          </div>
 
-        <div class="card-actions" aria-label="Second business links">
-          <span class="button primary disabled" role="text">
-            Contact needed
-          </span>
-          <span class="button disabled" role="text">
-            Website needed
-          </span>
-        </div>
+          <div class="link-card empty" role="note">
+            <span>
+              <strong>Social Profile</strong>
+              <small>Info needed: add TikTok, Instagram, YouTube, X, or another profile</small>
+            </span>
+            <span aria-hidden="true">Add</span>
+          </div>
+
+          <div class="link-card empty" role="note">
+            <span>
+              <strong>Contact</strong>
+              <small>Info needed: add email, phone, form, or booking link</small>
+            </span>
+            <span aria-hidden="true">Add</span>
+          </div>
+        </nav>
       </article>
 
-      <article class="business-card missing">
-        <div class="card-header">
+      <article class="person-card">
+        <header class="person-header">
           <div class="avatar" aria-hidden="true">3</div>
-          <span class="status">Info needed</span>
-        </div>
+          <div>
+            <p class="label">Person 3</p>
+            <h2>Info needed</h2>
+          </div>
+        </header>
 
-        <div class="card-body">
-          <p class="owner">Info needed</p>
-          <h2>Info needed</h2>
-          <p class="description">
-            Add the owner's name, business name, description, and verified contact links.
-          </p>
-        </div>
+        <nav class="links" aria-label="Third person's links">
+          <div class="link-card empty" role="note">
+            <span>
+              <strong>Main Website</strong>
+              <small>Info needed: add a real website, portfolio, shop, or booking link</small>
+            </span>
+            <span aria-hidden="true">Add</span>
+          </div>
 
-        <div class="card-actions" aria-label="Third business links">
-          <span class="button primary disabled" role="text">
-            Contact needed
-          </span>
-          <span class="button disabled" role="text">
-            Website needed
-          </span>
-        </div>
+          <div class="link-card empty" role="note">
+            <span>
+              <strong>Social Profile</strong>
+              <small>Info needed: add TikTok, Instagram, YouTube, X, or another profile</small>
+            </span>
+            <span aria-hidden="true">Add</span>
+          </div>
+
+          <div class="link-card empty" role="note">
+            <span>
+              <strong>Contact</strong>
+              <small>Info needed: add email, phone, form, or booking link</small>
+            </span>
+            <span aria-hidden="true">Add</span>
+          </div>
+        </nav>
       </article>
     </section>
 
-    <section id="info-needed" class="notice" aria-labelledby="notice-title">
-      <h2 id="notice-title">Before launch</h2>
+    <section class="edit-note" aria-labelledby="edit-title">
+      <h2 id="edit-title">Easy to update</h2>
       <p>
-        Replace every temporary business name, description, and link with real verified information.
-        Missing details are intentionally marked as "Info needed" instead of being invented.
+        Replace each "Info needed" block in <code>index.html</code> with a real link card.
+        Use full URLs such as <code>https://your-site.com</code>.
       </p>
     </section>
   </main>
